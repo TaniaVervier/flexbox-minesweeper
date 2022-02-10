@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
     background:rgb(216, 216, 216);
@@ -10,11 +10,12 @@ body {
 }
 
 span {
+    font-family: 'Press Start 2P', cursive;
     height: 47px;
     width: 47px;
     border-bottom: dotted 3px black;
     border-right: dotted 3px black;
-    font-size: 40px;
+    font-size: 30px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -30,6 +31,7 @@ section{
     border-bottom: 6px solid whitesmoke;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 div {
@@ -38,14 +40,6 @@ div {
 
 img {
     height: 30px;
-}
-
-.case {
-    border-right: black 3px solid;
-    border-bottom: black 3px solid;
-    height: 47px;
-    width: 47px;
-    box-shadow: inset 3px 3px whitesmoke;
 }
 
 .blue{
@@ -58,4 +52,12 @@ img {
 
 .red{
     color: red;
+}
+
+.case {
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+    height: 47px;
+    width: 47px;
+    box-shadow: inset 3px 3px whitesmoke;
 }
