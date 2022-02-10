@@ -10,10 +10,10 @@ body {
 }
 
 span {
-    height: 48px;
-    width: 48px;
-    border-bottom: dotted 2px black;
-    border-right: dotted 2px black;
+    height: 47px;
+    width: 47px;
+    border-bottom: dotted 3px black;
+    border-right: dotted 3px black;
     font-size: 40px;
     margin: auto;
     display: flex;
@@ -41,10 +41,10 @@ img {
 }
 
 .case {
-    border-right: black 2px solid;
-    border-bottom: black 2px solid;
-    height: 48px;
-    width: 48px;
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+    height: 47px;
+    width: 47px;
     box-shadow: inset 3px 3px whitesmoke;
 }
 
