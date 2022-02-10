@@ -15,7 +15,7 @@ span {
     width: 47px;
     border-bottom: dotted 3px black;
     border-right: dotted 3px black;
-    font-size: 30px;
+    font-size: 28px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -60,3 +60,4 @@ img {
     width: 47px;
     box-shadow: inset 3px 3px whitesmoke;   
 }
+
