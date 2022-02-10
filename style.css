@@ -1,7 +1,7 @@
 
 
 body {
-    background:lightgray;
+    background:rgb(216, 216, 216);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@ span {
     align-items: center;
 }
 
-div{
+section{
     width: 400px;
     height: 400px;
     border-top: 6px solid grey;
@@ -30,7 +30,10 @@ div{
     border-bottom: 6px solid whitesmoke;
     display: flex;
     flex-wrap: wrap;
-    
+}
+
+div {
+    border: 8px solid rgb(158, 158, 158);
 }
 
 img {
@@ -38,12 +41,11 @@ img {
 }
 
 .case {
-    border-top: whitesmoke 3px solid;
-    border-left: whitesmoke 3px solid;
-    border-right: grey 3px solid;
-    border-bottom: grey 3px solid;
-    height: 44px;
-    width: 44px;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
+    height: 48px;
+    width: 48px;
+    box-shadow: inset 3px 3px whitesmoke;
 }
 
 .blue{
@@ -57,4 +59,3 @@ img {
 .red{
     color: red;
 }
-
